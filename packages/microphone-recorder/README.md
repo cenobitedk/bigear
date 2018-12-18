@@ -2,30 +2,20 @@
 
 >  It is a lib for sound recording on HTML, implemented by audioContext and webWorker
 
-![npm-img](https://img.shields.io/npm/v/@bigear/microphone-recorder.svg)
-![npm-url](https://www.npmjs.com/package/@bigear/microphone-recorder)
-
-![nodei.co](https://nodei.co/npm/@bigear/bigear.png?downloads=true&downloadRank=true&stars=true)
-
+**NOTE:** forked from [@bigear](https://github.com/wahengchang/bigear/tree/master/packages/microphone-recorder) and published as an ES5 compatible package.
 
 
 ## Install
 ```
-$ npm install --save @bigear/microphone-recorder
+$ npm install --save @cenobitedk/microphone-recorder
 ```
-
-## Demo
-
-Github: https://github.com/vue-exp-lab/vue-sound-streaming/blob/master/src/pages/MicAudioContext.vue
-
- - [https://vue-sound-streaming.herokuapp.com/MicAudioContext](https://vue-sound-streaming.herokuapp.com/MicAudioContext)
 
 
 ## Usage
 
 ```js
 
-import Recorder from "@bigear/microphone-recorder";
+import Recorder from "@cenobitedk/microphone-recorder";
 
 
 navigator.mediaDevices.getUserMedia({ audio: true }).then((mediaStreamObject) => {
